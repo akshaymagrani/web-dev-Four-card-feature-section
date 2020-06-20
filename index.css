@@ -29,9 +29,9 @@ body {
     padding:0.5rem;
   }
   h1.header2 {
-  display: block;
-  margin: auto;
-  padding:0.5rem;
+    display: block;
+    margin: auto;
+    padding:0.5rem;
   }
   p.sub-head {
     display: block;
@@ -194,7 +194,6 @@ p.card-content {
   font-size: 11px;
   text-align: center;
 }
-
 .attribution a {
   color: hsl(228, 45%, 44%);
 }

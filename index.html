@@ -8,48 +8,69 @@
   
   <title>Frontend Mentor | Four card feature section</title>
   
-  <link href="index.css" type="text/css" rel="stylesheet">
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- External CSS file link_revision_1_vanilla CSS 
+  <link href="index.css" type="text/css" rel="stylesheet"> -->
+
+  <!-- External CSS file link_revision_2_Bootstrap Companion CSS --> 
+  <link href="index-bootstrap-companion.css" type="text/css" rel="stylesheet"> 
+
+  <!-- External Font Link -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
+
+  
+  <!-- Bootstrap Links -->
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  
 </head>
 <body>
   <main>
     <div class="main-content">
-  <section class="header">
-    <h1 class="header1">Reliable, efficient delivery</h1>
-    <h1 class="header2">Powered by Technology</h1>
+  <section class="header px-3">
+    <h3 class="header1 text-center font-weight-light mt-4">Reliable, efficient delivery</h1>
+    <h3 class="header2 text-center">Powered by Technology</h1>
 
-    <p class="sub-head">Our Artificial Intelligence powered tools use millions of project data points
+    <p class="sub-head text-center mt-4">Our Artificial Intelligence powered tools use millions of project data points
       to ensure that your project is successful</p>
   </section>
-  <!--Card 1 -->
-  <div class="card1">
-    <p class="card-head">Supervisor</p>
-    <p class="card-content">Monitors activity to identify project roadblocks</p>
-    <img src="images/icon-supervisor.svg" class="imgs"></img>
-  </div>
-  <!--Card 2 -->
-  <div class="mid-col">
-    <div class="card2">
-      <p class="card-head">Team Builder</p>
-      <p class="card-content">Scans our talent network to create the optimal team for your project</p>
-      <img src="images/icon-team-builder.svg" class="imgs"></img>
+  
+    <!--Card 1 -->
+  <div class="section2 my-5 my-md-1 justify-content-md-center">
+    <div class="card1 p-4 rounded-lg shadow justify-content-md-end align-self-center">
+      <h4 class="card-head">Supervisor</h4>
+      <p class="card-content">Monitors activity to identify project roadblocks</p>
+      <img src="images/icon-supervisor.svg" class="imgs mt-4">
     </div>
+    <!--Card 2 -->
+    <div class="mid-col">
+      <div class="card2 p-4 rounded-lg shadow">
+        <h4 class="card-head">Team Builder</h4>
+        <p class="card-content">Scans our talent network to create the optimal team for your project</p>
+        <img src="images/icon-team-builder.svg" class="imgs mt-4">
+      </div>
     <!--Card 3 -->
-    <div class="card3">
-      <p class="card-head">Karma</p>
-      <p class="card-content">Regularly evaluates our talent to ensure quality</p>
-      <img src="images/icon-karma.svg" class="imgs"></img>
+      <div class="card3 p-4 rounded-lg shadow">
+        <h4 class="card-head">Karma</h4>
+        <p class="card-content">Regularly evaluates our talent to ensure quality</p>
+        <img src="images/icon-karma.svg" class="imgs mt-4">
+      </div>
     </div>
-  </div>
-  <!--Card 4 -->
-  <div class="card4">
-    <p class="card-head">Calculator</p>
-    <p class="card-content">Uses data from past projects to provide better delivery estimates</p>
-    <img src="images/icon-calculator.svg" class="imgs"></img>
+    <!--Card 4 -->
+    <div class="card4 p-4 rounded-lg shadow justify-content-md-start align-self-center">
+      <h4 class="card-head">Calculator</h4>
+      <p class="card-content">Uses data from past projects to provide better delivery estimates</p>
+      <img src="images/icon-calculator.svg" class="imgs mt-4">
+    </div>
   </div>
 </div>
 </main>
-  <footer class="footer">
+  <footer class="footer text-center">
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
       Coded by <a href="#">Akshaykumar Magrani.</a>.
