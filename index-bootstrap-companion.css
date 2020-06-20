@@ -25,8 +25,8 @@ div.card3,
 div.card4 {
     display: block;
     width: 100%;
-    max-width: 280px;
-    height: 200px;
+    max-width: 320px;
+    height: 230px;
     border-radius: 10px;
     box-shadow: 0 20px 25px hsl(229, 6%, 66%);
     position: relative;
@@ -94,7 +94,7 @@ p.card-content {
 @media screen and (min-width:1050px) {
     .section2{
         display: grid; /*create grid*/
-        grid-template-columns: 1fr 338px 1fr;
+        grid-template-columns: 1fr 368px 1fr;
         grid-template-rows: 1fr;
     }
     .mid-col{
