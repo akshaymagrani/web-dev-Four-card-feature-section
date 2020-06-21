@@ -7,15 +7,10 @@
     --GrayishBlue: hsl(229, 6%, 66%);
     --VeryLightGray: hsl(0, 0%, 98%);
 }
-
 /*_____SubHeading____*/
 .sub-head{
     max-width: 500px;
     margin: auto;
-    color: var(--GrayishBlue);
-}
-.header1{
-    color: var(--GrayishBlue);
 }
 
 /*_____Cards_____*/
@@ -34,23 +29,9 @@ div.card4 {
     margin-top: 1.5em;
 }
 
-div.card1 {
-    border-top: 5px solid hsl(180, 62%, 55%);
-}  
-div.card2 {
-    border-top: 5px solid hsl(0, 78%, 62%);
-} 
-div.card3 {
-    border-top: 5px solid hsl(34, 97%, 64%);
-}  
-div.card4 {
-    border-top: 5px solid hsl(212, 86%, 64%);
-}
-
 p.card-content {
     font-weight: 400;
     font-size: 14px;
-    font-family: "Poppins", sans-serif;
     padding: 0.5rem 0;
     color: hsl(229, 6%, 66%);
 }
